@@ -14,8 +14,8 @@ body{
 }
 
 .card{
-     width: 90%;
-     width: 470px;
+     width: 40%;
+     min-width: 470px;
      background: linear-gradient(135deg, #00feba, #5b548a);
      color: #fff;
      margin: 100px auto 0;
@@ -109,4 +109,9 @@ body{
      font-size: 15px;
      font-weight: 500;
      display: none;
+}
+@media screen and (min-width: 360px) {
+     .card{
+          width: 30%;
+     }
 }
